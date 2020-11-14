@@ -1,0 +1,104 @@
+:root {
+  --primary-text-color: #757575;
+  --titel-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-wight-color: #ffffff;
+  --primary-button-color: #f5f4fa;
+  --piimary-icon-color: #afb1b8;
+}
+
+/*цвет основного текста background: #757575;*/
+
+/*цвет вторичного текста background: #212121;*/
+
+/*белый цвет background: #ffffff;*/
+
+/*акцент background: #2196F3;*/
+/* первый вторичный цвет фона background: #2F303A; 
+ */
+/* второй вторичный цвет фона background: #F5F4FA; */
+/* основной цвет букв для социальных сетей  background:  #afb1b8;*/
+
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--primary-wight-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  padding-top: 80px;
+}
+
+.text {
+  color: var(--primary-text-color);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+}
+/* контейнер */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* основные цвета сайта header foote content-team*/
+.page-header {
+  border-bottom: 1px solid #ececec;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background: #ffffff;
+}
+.page-header span {
+  color: black;
+}
+.page-footer span {
+  color: #ffffff;
+}
+
+/* цунтрирование элементов */
+.center {
+  text-align: center;
+}
+/* сброс стилей  */
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.text {
+  margin: 0 auto;
+}
+.card-img {
+  display: block;
+}
